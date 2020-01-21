@@ -1,7 +1,7 @@
 
 # Reconstruction 3d CGAN
 
-El presente código pretende mostrar los resultados de la primera etapa de un proyecto que tiene como objetivo generar formas tridimensionales con un arquitectura  _generativa adversaria  condicionada_. 
+El presente código pretende mostrar los resultados de la primera etapa de un proyecto que tiene como objetivo generar formas tridimensionales con una arquitectura  _generativa adversaria  condicionada_. 
 El objetivo de esta etapa era lograr reconstruir un modelo tridimensional que ha sido parcialmente mutilado (hasta un máximo de 50%).  Demostración [aquí](https://github.com/sandroormeno/reconstruction3d_CGAN/blob/master/test.ipynb).
 
 ![imagen](reconstruction.gif)  
