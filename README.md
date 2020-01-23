@@ -6,7 +6,7 @@ El objetivo de esta etapa era lograr reconstruir un modelo tridimensional que ha
 
 ![imagen](reconstruction.gif)  
 
-Para efecto del entrenamiento y test se genera el efecto mutilado aleatoriamente en una figura tridimensional formateado en binvox con una resolución cubica de 32. El procedimiento para formatear un modelo tridimensional  se explica en el siguiente [git](https://github.com/sandroormeno/Machine-learning-with-3d-objects).
+Para efecto del entrenamiento y test se genera el efecto mutilado aleatoriamente en una figura tridimensional formateado en binvox con una resolución cubica de 32 vóxeles. El procedimiento para formatear un modelo tridimensional  se explica en el siguiente [git](https://github.com/sandroormeno/Machine-learning-with-3d-objects).
 
 La arquitectura usada es una __CGAN__ que tiene una etapa generadora con una típica estructura de _autoencoder_ con _skip connections_ y una etapa discriminadora a la cual se le introduce, además de la salida generadora, la solución al problema para el entrenamiento. 
 
